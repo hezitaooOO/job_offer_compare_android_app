@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  Title" />
+
+        <EditText
+            android:id="@+id/entryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  Company" />
+
+        <EditText
+            android:id="@+id/entryCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  City" />
+
+        <EditText
+            android:id="@+id/entryCity"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  State" />
+
+        <EditText
+            android:id="@+id/entryState"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  Cost Of Living Index" />
+
+        <EditText
+            android:id="@+id/entryCostOfLivingIndex"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  Yearly Salary" />
+
+        <EditText
+            android:id="@+id/entryYearlySalary"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  Yearly Bonus" />
+
+        <EditText
+            android:id="@+id/entryYearlyBonus"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  Retirement Benefits" />
+
+        <EditText
+            android:id="@+id/entryRetirementBenefits"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  Relocation Stipend" />
+
+        <EditText
+            android:id="@+id/entryRelocationStipend"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  Training &amp; Development Fund" />
+
+        <EditText
+            android:id="@+id/entryTrainingFund"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textSaveJobResult"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:onClick="addSaveJob"
+            android:text="Add" />
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+
+        <Button
+            android:id="@+id/jobButtonCompare"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:onClick="renderCompareTwoJobsFromAddJobOffer"
+            android:text="COMPARE" />
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/buttonClose"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:onClick="renderMainMenu"
+            android:text="Close" />
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
